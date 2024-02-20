@@ -1,0 +1,13 @@
+C:/Users/79085/source/repos/Messanger_project/Server_backend/build/CMakeFiles/ClientServer.dir
+C:/Users/79085/source/repos/Messanger_project/Server_backend/build/CMakeFiles/PACKAGE.dir
+C:/Users/79085/source/repos/Messanger_project/Server_backend/build/CMakeFiles/INSTALL.dir
+C:/Users/79085/source/repos/Messanger_project/Server_backend/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/79085/source/repos/Messanger_project/Server_backend/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/79085/source/repos/Messanger_project/Server_backend/build/libpqxx/CMakeFiles/PACKAGE.dir
+C:/Users/79085/source/repos/Messanger_project/Server_backend/build/libpqxx/CMakeFiles/INSTALL.dir
+C:/Users/79085/source/repos/Messanger_project/Server_backend/build/libpqxx/CMakeFiles/ALL_BUILD.dir
+C:/Users/79085/source/repos/Messanger_project/Server_backend/build/libpqxx/src/CMakeFiles/pqxx.dir
+C:/Users/79085/source/repos/Messanger_project/Server_backend/build/libpqxx/src/CMakeFiles/PACKAGE.dir
+C:/Users/79085/source/repos/Messanger_project/Server_backend/build/libpqxx/src/CMakeFiles/INSTALL.dir
+C:/Users/79085/source/repos/Messanger_project/Server_backend/build/libpqxx/include/CMakeFiles/PACKAGE.dir
+C:/Users/79085/source/repos/Messanger_project/Server_backend/build/libpqxx/include/CMakeFiles/INSTALL.dir

@@ -40,7 +40,9 @@
             </MenuItem>
             <MenuItem>
                 <MenuItem.Header>
-                    <TextBlock FontSize="15">Register</TextBlock>
+                    <Button Click="Register">
+                        <TextBlock FontSize="15">Register</TextBlock>
+                    </Button>
                 </MenuItem.Header>
             </MenuItem>
         </Menu>
@@ -49,6 +51,28 @@
         <ScrollViewer Grid.Row="1" Grid.Column="0">
             <StackPanel>
                 <!-- Buttons of friend`s chats -->
+            </StackPanel>
+        </ScrollViewer>
+
+        <ScrollViewer Grid.Row="1" Grid.Column="1">
+            <StackPanel VerticalAlignment="Bottom">
+                
+                <!-- Our messages -->
+                <ListBox x:Name="messagesPanel">
+                    
+                </ListBox>
+                
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="8*"></ColumnDefinition>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBox x:Name="clientText" Grid.Column="0" Margin="10, 0, 0, 5" />
+                    <Button Grid.Column="1" Margin="10, 0, 0, 5" Click="OnSendMessage" >Send</Button>
+                    
+                </Grid>
+                
+                
             </StackPanel>
         </ScrollViewer>
         

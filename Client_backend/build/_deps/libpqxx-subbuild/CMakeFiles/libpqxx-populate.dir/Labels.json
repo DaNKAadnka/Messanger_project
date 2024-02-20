@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-subbuild/CMakeFiles/libpqxx-populate"
+		},
+		{
+			"file" : "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-subbuild/CMakeFiles/d5f3243c58dd12e757e01175b6521958/libpqxx-populate.rule"
+		},
+		{
+			"file" : "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-subbuild/CMakeFiles/3a1b3854613a04b3300b1e8b2c97d54d/libpqxx-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-subbuild/CMakeFiles/d86c615d8849632daa7954f25b8d4f84/libpqxx-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-subbuild/CMakeFiles/d86c615d8849632daa7954f25b8d4f84/libpqxx-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-subbuild/CMakeFiles/d86c615d8849632daa7954f25b8d4f84/libpqxx-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-subbuild/CMakeFiles/d86c615d8849632daa7954f25b8d4f84/libpqxx-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-subbuild/CMakeFiles/d86c615d8849632daa7954f25b8d4f84/libpqxx-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-subbuild/CMakeFiles/d86c615d8849632daa7954f25b8d4f84/libpqxx-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-subbuild/CMakeFiles/d86c615d8849632daa7954f25b8d4f84/libpqxx-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-subbuild/CMakeFiles/d86c615d8849632daa7954f25b8d4f84/libpqxx-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libpqxx-populate"
+		],
+		"name" : "libpqxx-populate"
+	}
+}

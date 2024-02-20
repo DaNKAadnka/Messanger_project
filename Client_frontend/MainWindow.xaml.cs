@@ -13,6 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
+using System.Net.Sockets;
+using System.Threading;
+using System.Net.Http;
+using System.Collections.ObjectModel;
+using static System.Net.Mime.MediaTypeNames;
+using System.Runtime.Remoting.Contexts;
+
 namespace WpfApp1
 {
     /// <summary>
@@ -20,9 +28,66 @@ namespace WpfApp1
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        public static ObservableCollection<string> messages = new ObservableCollection<string>();
+
         public MainWindow()
         {
             InitializeComponent();
+            messagesPanel.ItemsSource = messages;
         }
+
+        protected override void OnContentRendered (EventArgs e)
+        {
+            base.OnContentRendered(e);
+            NetworkModule.instance = new NetworkModule();
+        }
+        
+
+        //public string Recieve()
+        //{
+        //    while (true)
+        //    {
+        //        // буфер для получения данных
+        //        var responseData = new byte[512];
+        //        // StringBuilder для склеивания полученных данных в одну строку
+        //        var response = new StringBuilder();
+        //        int bytes;  // количество полученных байтов
+        //        do
+        //        {
+        //            // получаем данные
+        //            bytes = stream.Read(responseData, 0, responseData.Length);
+        //            // преобразуем в строку и добавляем ее в StringBuilder
+        //            response.Append(Encoding.UTF8.GetString(responseData, 0, bytes));
+        //        }
+        //        while (bytes > 0); // пока данные есть в потоке 
+
+        //        return 
+        //        Thread.Sleep(3000);
+        //    }
+        //}
+
+        //public async Task<string> RecieveAsync ()
+        //{
+        //    return await Task.Run(() => Recieve());
+        //}
+
+        public void OnSendMessage(object sender, RoutedEventArgs eventArgs)
+        {
+            string message = clientText.Text;
+            if (message != null)
+            {
+                NetworkModule.instance.SendMessage(message);
+            }
+
+            clientText.Text = "";
+        }
+
+        public void Register (object sender, RoutedEventArgs eventArgs)
+        {
+            RegisterWindows r = new RegisterWindows();
+            r.Show();
+        }
+        
     }
 }

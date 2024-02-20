@@ -3,12 +3,17 @@
 #include <string>
 #include <sstream>
 
+#include <pqxx\pqxx>
+
 #pragma comment (lib, "ws2_32.lib")
 
 using namespace std;
+using namespace pqxx;
 
 void main()
 {
+	setlocale(LC_ALL, "Russian");
+
 	// Initialze winsock
 	WSADATA wsData;
 	WORD ver = MAKEWORD(2, 2);
@@ -105,25 +110,49 @@ void main()
 				}
 				else
 				{
-					// Check to see if it's a command. \quit kills the server
-					if (buf[0] == '\\')
-					{
-						// Is the command quit? 
-						string cmd = string(buf, bytesIn);
-						if (cmd == "\quit\n")
-						{
-							running = false;
-							break;
-						}
+					/*
+						Now we should use database PostgreSQL.
+						In order to identify users and store their messages,
+						we should create our own mini-protocol.
+						It will include some headers, just like in http protocol.
+						
+						***
+						* Command:Authorization
+						* Content:
+						* Login:RickySoyer
+						* Password:justice_for_everyone
+						* 
 
-						// Unknown command
-						continue;
+	
+
+					*/
+
+					string cmd = string(buf, bytesIn);
+
+					try {
+						std::string connectionString = "host=127.0.0.1 port=5432 dbname=Messanger_DB user=postgr password =123454321";
+
+						cout << connectionString << endl;
+						system("pause");
+						connection C;
+						if (C.is_open()) {
+							cout << "Opened database successfully: " << C.dbname() << endl;
+						}
+						else {
+							cout << "Can't open database" << endl;
+							return;
+						}
+						//C.disconnect();
+					}
+					catch (const std::exception e) {
+						std::cout << e.what() << std::endl;
+						return;
 					}
 
 					// Send message to other clients, and definiately NOT the listening socket
 					
 					string s = "This message was delivered to someone.\n";
-					send(sock, s.c_str(), s.size() + 1, 0);
+					//send(sock, s.c_str(), s.size() + 1, 0);
 
 					for (int i = 0; i < master.fd_count; i++)
 					{

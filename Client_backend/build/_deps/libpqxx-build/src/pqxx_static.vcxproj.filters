@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\array.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\binarystring.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\connection.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\connection_base.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\cursor.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\dbtransaction.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\encodings.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\errorhandler.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\except.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\field.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\largeobject.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\nontransaction.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\notification.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\pipeline.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\prepared_statement.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\result.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\robusttransaction.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\row.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\sql_cursor.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\statement_parameters.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\strconv.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\stream_base.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\stream_from.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\stream_to.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\subtransaction.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\tablereader.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\tablestream.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\tablewriter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\transaction.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\transaction_base.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\util.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\version.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-src\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7B13E82C-EBFD-30F8-AEB4-A9A2FD95A75B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

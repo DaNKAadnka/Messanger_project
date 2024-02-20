@@ -1,0 +1,40 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindPostgreSQL.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake
+C:/Program Files/CMake/share/cmake-3.28/Templates/CPackConfig.cmake.in
+C:/Users/79085/source/repos/Messanger_project/Server_backend/build/libpqxx/include/pqxx/config_cmake.h.in
+C:/Users/79085/source/repos/Messanger_project/Server_backend/libpqxx/CMakeLists.txt
+C:/Users/79085/source/repos/Messanger_project/Server_backend/libpqxx/cmake/config.cmake
+C:/Users/79085/source/repos/Messanger_project/Server_backend/libpqxx/cmake/libpqxx-config.cmake
+C:/Users/79085/source/repos/Messanger_project/Server_backend/libpqxx/config-tests/charconv_float.cxx
+C:/Users/79085/source/repos/Messanger_project/Server_backend/libpqxx/config-tests/charconv_int.cxx
+C:/Users/79085/source/repos/Messanger_project/Server_backend/libpqxx/config-tests/cmp.cxx
+C:/Users/79085/source/repos/Messanger_project/Server_backend/libpqxx/config-tests/concepts.cxx
+C:/Users/79085/source/repos/Messanger_project/Server_backend/libpqxx/config-tests/cxa_demangle.cxx
+C:/Users/79085/source/repos/Messanger_project/Server_backend/libpqxx/config-tests/fs.cxx
+C:/Users/79085/source/repos/Messanger_project/Server_backend/libpqxx/config-tests/gcc_pure.cxx
+C:/Users/79085/source/repos/Messanger_project/Server_backend/libpqxx/config-tests/gcc_visibility.cxx
+C:/Users/79085/source/repos/Messanger_project/Server_backend/libpqxx/config-tests/likely.cxx
+C:/Users/79085/source/repos/Messanger_project/Server_backend/libpqxx/config-tests/need_fslib.cxx
+C:/Users/79085/source/repos/Messanger_project/Server_backend/libpqxx/config-tests/sleep_for.cxx
+C:/Users/79085/source/repos/Messanger_project/Server_backend/libpqxx/config-tests/span.cxx
+C:/Users/79085/source/repos/Messanger_project/Server_backend/libpqxx/config-tests/strerror_r.cxx
+C:/Users/79085/source/repos/Messanger_project/Server_backend/libpqxx/config-tests/strerror_s.cxx
+C:/Users/79085/source/repos/Messanger_project/Server_backend/libpqxx/config-tests/thread_local.cxx
+C:/Users/79085/source/repos/Messanger_project/Server_backend/libpqxx/config-tests/year_month_day.cxx

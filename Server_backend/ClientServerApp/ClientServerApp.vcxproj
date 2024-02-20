@@ -128,6 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ClientServerApp.cpp" />
+    <ClCompile Include="db_handler.cpp" />
+    <ClCompile Include="p_controller.cpp" />
+    <ClCompile Include="Tcp_listener.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="db_handler.h" />
+    <ClInclude Include="p_controller.h" />
+    <ClInclude Include="Tcp_listener.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

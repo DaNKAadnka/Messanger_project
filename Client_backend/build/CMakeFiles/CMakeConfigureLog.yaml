@@ -1,0 +1,813 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+      Сборка начата 18.02.2024 13:24:30.
+      
+      Проект "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.47
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+      Сборка начата 18.02.2024 13:24:30.
+      
+      Проект "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.41
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-f1kgxm"
+      binary: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-f1kgxm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-f1kgxm'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a39e2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 18.02.2024 13:24:31.
+        
+        Проект "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1kgxm\\cmTC_a39e2.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_a39e2.dir\\Debug\\".
+          Создание каталога "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1kgxm\\Debug\\".
+          Создание каталога "cmTC_a39e2.dir\\Debug\\cmTC_a39e2.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_a39e2.dir\\Debug\\cmTC_a39e2.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_a39e2.dir\\Debug\\cmTC_a39e2.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a39e2.dir\\Debug\\\\" /Fd"cmTC_a39e2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32825 для x64
+          CMakeCCompilerABI.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a39e2.dir\\Debug\\\\" /Fd"cmTC_a39e2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1kgxm\\Debug\\cmTC_a39e2.exe" /INCREMENTAL /ILK:"cmTC_a39e2.dir\\Debug\\cmTC_a39e2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-f1kgxm/Debug/cmTC_a39e2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-f1kgxm/Debug/cmTC_a39e2.lib" /MACHINE:X64  /machine:x64 cmTC_a39e2.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_a39e2.vcxproj -> C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1kgxm\\Debug\\cmTC_a39e2.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_a39e2.dir\\Debug\\cmTC_a39e2.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_a39e2.dir\\Debug\\cmTC_a39e2.tlog\\cmTC_a39e2.lastbuildstate".
+        Сборка проекта "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f1kgxm\\cmTC_a39e2.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.34
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-pvqj87"
+      binary: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-pvqj87"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-pvqj87'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c5b54.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 18.02.2024 13:24:32.
+        
+        Проект "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pvqj87\\cmTC_c5b54.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_c5b54.dir\\Debug\\".
+          Создание каталога "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pvqj87\\Debug\\".
+          Создание каталога "cmTC_c5b54.dir\\Debug\\cmTC_c5b54.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_c5b54.dir\\Debug\\cmTC_c5b54.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_c5b54.dir\\Debug\\cmTC_c5b54.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c5b54.dir\\Debug\\\\" /Fd"cmTC_c5b54.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32825 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c5b54.dir\\Debug\\\\" /Fd"cmTC_c5b54.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pvqj87\\Debug\\cmTC_c5b54.exe" /INCREMENTAL /ILK:"cmTC_c5b54.dir\\Debug\\cmTC_c5b54.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-pvqj87/Debug/cmTC_c5b54.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-pvqj87/Debug/cmTC_c5b54.lib" /MACHINE:X64  /machine:x64 cmTC_c5b54.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_c5b54.vcxproj -> C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pvqj87\\Debug\\cmTC_c5b54.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_c5b54.dir\\Debug\\cmTC_c5b54.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_c5b54.dir\\Debug\\cmTC_c5b54.tlog\\cmTC_c5b54.lastbuildstate".
+        Сборка проекта "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pvqj87\\cmTC_c5b54.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.37
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake:89 (try_compile)"
+      - "build/_deps/libpqxx-src/cmake/config.cmake:28 (check_include_file_cxx)"
+      - "build/_deps/libpqxx-src/CMakeLists.txt:21 (include)"
+    checks:
+      - "Looking for C++ include sys/select.h"
+    directories:
+      source: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-x3f950"
+      binary: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-x3f950"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-src/cmake"
+    buildResult:
+      variable: "HAVE_SYS_SELECT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-x3f950'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ff99b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 18.02.2024 13:27:03.
+        
+        Проект "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x3f950\\cmTC_ff99b.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_ff99b.dir\\Debug\\".
+          Создание каталога "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x3f950\\Debug\\".
+          Создание каталога "cmTC_ff99b.dir\\Debug\\cmTC_ff99b.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_ff99b.dir\\Debug\\cmTC_ff99b.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_ff99b.dir\\Debug\\cmTC_ff99b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ff99b.dir\\Debug\\\\" /Fd"cmTC_ff99b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x3f950\\CheckIncludeFile.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32825 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          CheckIncludeFile.cxx
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ff99b.dir\\Debug\\\\" /Fd"cmTC_ff99b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x3f950\\CheckIncludeFile.cxx"
+        C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x3f950\\CheckIncludeFile.cxx(1,10): fatal  error C1083: Не удается открыть файл включение: sys/select.h: No such file or directory, [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x3f950\\cmTC_ff99b.vcxproj]
+        Сборка проекта "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x3f950\\cmTC_ff99b.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x3f950\\cmTC_ff99b.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x3f950\\CheckIncludeFile.cxx(1,10): fatal  error C1083: Не удается открыть файл включение: sys/select.h: No such file or directory, [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x3f950\\cmTC_ff99b.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.33
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake:89 (try_compile)"
+      - "build/_deps/libpqxx-src/cmake/config.cmake:29 (check_include_file_cxx)"
+      - "build/_deps/libpqxx-src/CMakeLists.txt:21 (include)"
+    checks:
+      - "Looking for C++ include sys/time.h"
+    directories:
+      source: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-mcmkyl"
+      binary: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-mcmkyl"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-src/cmake"
+    buildResult:
+      variable: "HAVE_SYS_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-mcmkyl'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2d0fb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 18.02.2024 13:27:03.
+        
+        Проект "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mcmkyl\\cmTC_2d0fb.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_2d0fb.dir\\Debug\\".
+          Создание каталога "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mcmkyl\\Debug\\".
+          Создание каталога "cmTC_2d0fb.dir\\Debug\\cmTC_2d0fb.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_2d0fb.dir\\Debug\\cmTC_2d0fb.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_2d0fb.dir\\Debug\\cmTC_2d0fb.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2d0fb.dir\\Debug\\\\" /Fd"cmTC_2d0fb.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mcmkyl\\CheckIncludeFile.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32825 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          CheckIncludeFile.cxx
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2d0fb.dir\\Debug\\\\" /Fd"cmTC_2d0fb.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mcmkyl\\CheckIncludeFile.cxx"
+        C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mcmkyl\\CheckIncludeFile.cxx(1,10): fatal  error C1083: Не удается открыть файл включение: sys/time.h: No such file or directory, [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mcmkyl\\cmTC_2d0fb.vcxproj]
+        Сборка проекта "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mcmkyl\\cmTC_2d0fb.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mcmkyl\\cmTC_2d0fb.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mcmkyl\\CheckIncludeFile.cxx(1,10): fatal  error C1083: Не удается открыть файл включение: sys/time.h: No such file or directory, [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mcmkyl\\cmTC_2d0fb.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.21
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake:89 (try_compile)"
+      - "build/_deps/libpqxx-src/cmake/config.cmake:30 (check_include_file_cxx)"
+      - "build/_deps/libpqxx-src/CMakeLists.txt:21 (include)"
+    checks:
+      - "Looking for C++ include sys/types.h"
+    directories:
+      source: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-w122wz"
+      binary: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-w122wz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-src/cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-w122wz'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6bf92.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 18.02.2024 13:27:03.
+        
+        Проект "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w122wz\\cmTC_6bf92.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_6bf92.dir\\Debug\\".
+          Создание каталога "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w122wz\\Debug\\".
+          Создание каталога "cmTC_6bf92.dir\\Debug\\cmTC_6bf92.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_6bf92.dir\\Debug\\cmTC_6bf92.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_6bf92.dir\\Debug\\cmTC_6bf92.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6bf92.dir\\Debug\\\\" /Fd"cmTC_6bf92.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w122wz\\CheckIncludeFile.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32825 для x64
+          CheckIncludeFile.cxx
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6bf92.dir\\Debug\\\\" /Fd"cmTC_6bf92.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w122wz\\CheckIncludeFile.cxx"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w122wz\\Debug\\cmTC_6bf92.exe" /INCREMENTAL /ILK:"cmTC_6bf92.dir\\Debug\\cmTC_6bf92.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-w122wz/Debug/cmTC_6bf92.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-w122wz/Debug/cmTC_6bf92.lib" /MACHINE:X64  /machine:x64 cmTC_6bf92.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_6bf92.vcxproj -> C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w122wz\\Debug\\cmTC_6bf92.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_6bf92.dir\\Debug\\cmTC_6bf92.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_6bf92.dir\\Debug\\cmTC_6bf92.tlog\\cmTC_6bf92.lastbuildstate".
+        Сборка проекта "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w122wz\\cmTC_6bf92.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.35
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake:89 (try_compile)"
+      - "build/_deps/libpqxx-src/cmake/config.cmake:31 (check_include_file_cxx)"
+      - "build/_deps/libpqxx-src/CMakeLists.txt:21 (include)"
+    checks:
+      - "Looking for C++ include unistd.h"
+    directories:
+      source: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-bs1fqi"
+      binary: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-bs1fqi"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-src/cmake"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-bs1fqi'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ef187.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 18.02.2024 13:27:04.
+        
+        Проект "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bs1fqi\\cmTC_ef187.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_ef187.dir\\Debug\\".
+          Создание каталога "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bs1fqi\\Debug\\".
+          Создание каталога "cmTC_ef187.dir\\Debug\\cmTC_ef187.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_ef187.dir\\Debug\\cmTC_ef187.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_ef187.dir\\Debug\\cmTC_ef187.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ef187.dir\\Debug\\\\" /Fd"cmTC_ef187.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bs1fqi\\CheckIncludeFile.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32825 для x64
+          CheckIncludeFile.cxx
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ef187.dir\\Debug\\\\" /Fd"cmTC_ef187.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bs1fqi\\CheckIncludeFile.cxx"
+        C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bs1fqi\\CheckIncludeFile.cxx(1,10): fatal  error C1083: Не удается открыть файл включение: unistd.h: No such file or directory, [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bs1fqi\\cmTC_ef187.vcxproj]
+        Сборка проекта "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bs1fqi\\cmTC_ef187.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bs1fqi\\cmTC_ef187.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bs1fqi\\CheckIncludeFile.cxx(1,10): fatal  error C1083: Не удается открыть файл включение: unistd.h: No such file or directory, [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bs1fqi\\cmTC_ef187.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.23
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "build/_deps/libpqxx-src/cmake/config.cmake:33 (check_function_exists)"
+      - "build/_deps/libpqxx-src/CMakeLists.txt:21 (include)"
+    checks:
+      - "Looking for poll"
+    directories:
+      source: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-7lvla7"
+      binary: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-7lvla7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-src/cmake"
+    buildResult:
+      variable: "HAVE_POLL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-7lvla7'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_22d4f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 18.02.2024 13:27:04.
+        
+        Проект "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7lvla7\\cmTC_22d4f.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_22d4f.dir\\Debug\\".
+          Создание каталога "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7lvla7\\Debug\\".
+          Создание каталога "cmTC_22d4f.dir\\Debug\\cmTC_22d4f.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_22d4f.dir\\Debug\\cmTC_22d4f.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_22d4f.dir\\Debug\\cmTC_22d4f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=poll /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22d4f.dir\\Debug\\\\" /Fd"cmTC_22d4f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7lvla7\\CheckFunctionExists.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32825 для x64
+          CheckFunctionExists.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=poll /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22d4f.dir\\Debug\\\\" /Fd"cmTC_22d4f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7lvla7\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7lvla7\\Debug\\cmTC_22d4f.exe" /INCREMENTAL /ILK:"cmTC_22d4f.dir\\Debug\\cmTC_22d4f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-7lvla7/Debug/cmTC_22d4f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-7lvla7/Debug/cmTC_22d4f.lib" /MACHINE:X64  /machine:x64 cmTC_22d4f.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: ссылка на неразрешенный внешний символ poll в функции main. [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7lvla7\\cmTC_22d4f.vcxproj]
+        C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7lvla7\\Debug\\cmTC_22d4f.exe : fatal error LNK1120: неразрешенных внешних элементов: 1 [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7lvla7\\cmTC_22d4f.vcxproj]
+        Сборка проекта "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7lvla7\\cmTC_22d4f.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7lvla7\\cmTC_22d4f.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект Link) -> 
+          CheckFunctionExists.obj : error LNK2019: ссылка на неразрешенный внешний символ poll в функции main. [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7lvla7\\cmTC_22d4f.vcxproj]
+          C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7lvla7\\Debug\\cmTC_22d4f.exe : fatal error LNK1120: неразрешенных внешних элементов: 1 [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7lvla7\\cmTC_22d4f.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 2
+        
+        Прошло времени 00:00:00.31
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "build/_deps/libpqxx-src/cmake/config.cmake:3 (check_cxx_source_compiles)"
+      - "build/_deps/libpqxx-src/cmake/config.cmake:52 (detect_code_compiled)"
+      - "build/_deps/libpqxx-src/CMakeLists.txt:21 (include)"
+    directories:
+      source: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-qd5jty"
+      binary: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-qd5jty"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-src/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_OPTIONAL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-qd5jty'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6b869.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 18.02.2024 13:27:05.
+        
+        Проект "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qd5jty\\cmTC_6b869.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_6b869.dir\\Debug\\".
+          Создание каталога "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qd5jty\\Debug\\".
+          Создание каталога "cmTC_6b869.dir\\Debug\\cmTC_6b869.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_6b869.dir\\Debug\\cmTC_6b869.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_6b869.dir\\Debug\\cmTC_6b869.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D PQXX_HAVE_OPTIONAL /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_6b869.dir\\Debug\\\\" /Fd"cmTC_6b869.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qd5jty\\src.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32825 для x64
+          src.cxx
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D PQXX_HAVE_OPTIONAL /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_6b869.dir\\Debug\\\\" /Fd"cmTC_6b869.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qd5jty\\src.cxx"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qd5jty\\Debug\\cmTC_6b869.exe" /INCREMENTAL /ILK:"cmTC_6b869.dir\\Debug\\cmTC_6b869.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-qd5jty/Debug/cmTC_6b869.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-qd5jty/Debug/cmTC_6b869.lib" /MACHINE:X64  /machine:x64 cmTC_6b869.dir\\Debug\\src.obj
+          cmTC_6b869.vcxproj -> C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qd5jty\\Debug\\cmTC_6b869.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_6b869.dir\\Debug\\cmTC_6b869.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_6b869.dir\\Debug\\cmTC_6b869.tlog\\cmTC_6b869.lastbuildstate".
+        Сборка проекта "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qd5jty\\cmTC_6b869.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.40
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "build/_deps/libpqxx-src/cmake/config.cmake:3 (check_cxx_source_compiles)"
+      - "build/_deps/libpqxx-src/cmake/config.cmake:58 (detect_code_compiled)"
+      - "build/_deps/libpqxx-src/CMakeLists.txt:21 (include)"
+    directories:
+      source: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-iedz7t"
+      binary: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-iedz7t"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-src/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_EXP_OPTIONAL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-iedz7t'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_12c75.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 18.02.2024 13:27:05.
+        
+        Проект "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iedz7t\\cmTC_12c75.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_12c75.dir\\Debug\\".
+          Создание каталога "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iedz7t\\Debug\\".
+          Создание каталога "cmTC_12c75.dir\\Debug\\cmTC_12c75.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_12c75.dir\\Debug\\cmTC_12c75.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_12c75.dir\\Debug\\cmTC_12c75.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D PQXX_HAVE_EXP_OPTIONAL /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_12c75.dir\\Debug\\\\" /Fd"cmTC_12c75.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iedz7t\\src.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32825 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          src.cxx
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D PQXX_HAVE_EXP_OPTIONAL /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_12c75.dir\\Debug\\\\" /Fd"cmTC_12c75.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iedz7t\\src.cxx"
+        C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iedz7t\\src.cxx(2,12): fatal  error C1083: Не удается открыть файл включение: experimental/optional: No such file or directory, [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iedz7t\\cmTC_12c75.vcxproj]
+        Сборка проекта "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iedz7t\\cmTC_12c75.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iedz7t\\cmTC_12c75.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iedz7t\\src.cxx(2,12): fatal  error C1083: Не удается открыть файл включение: experimental/optional: No such file or directory, [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iedz7t\\cmTC_12c75.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.21
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "build/_deps/libpqxx-src/cmake/config.cmake:3 (check_cxx_source_compiles)"
+      - "build/_deps/libpqxx-src/cmake/config.cmake:17 (detect_code_compiled)"
+      - "build/_deps/libpqxx-src/cmake/config.cmake:63 (detect_attribute)"
+      - "build/_deps/libpqxx-src/CMakeLists.txt:21 (include)"
+    directories:
+      source: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-d92m8t"
+      binary: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-d92m8t"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-src/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_GCC_CONST"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-d92m8t'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_30d1a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 18.02.2024 13:27:06.
+        
+        Проект "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d92m8t\\cmTC_30d1a.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_30d1a.dir\\Debug\\".
+          Создание каталога "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d92m8t\\Debug\\".
+          Создание каталога "cmTC_30d1a.dir\\Debug\\cmTC_30d1a.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_30d1a.dir\\Debug\\cmTC_30d1a.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_30d1a.dir\\Debug\\cmTC_30d1a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D PQXX_HAVE_GCC_CONST /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_30d1a.dir\\Debug\\\\" /Fd"cmTC_30d1a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d92m8t\\src.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32825 для x64
+          src.cxx
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D PQXX_HAVE_GCC_CONST /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_30d1a.dir\\Debug\\\\" /Fd"cmTC_30d1a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d92m8t\\src.cxx"
+        C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d92m8t\\src.cxx(2,15): error C3646: __attribute__: неизвестный спецификатор переопределения [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d92m8t\\cmTC_30d1a.vcxproj]
+        C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d92m8t\\src.cxx(2,29): error C2059: синтаксическая ошибка: ( [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d92m8t\\cmTC_30d1a.vcxproj]
+        C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d92m8t\\src.cxx(2,31): error C2059: синтаксическая ошибка: const [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d92m8t\\cmTC_30d1a.vcxproj]
+        C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d92m8t\\src.cxx(2,37): error C2059: синтаксическая ошибка: ) [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d92m8t\\cmTC_30d1a.vcxproj]
+        Сборка проекта "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d92m8t\\cmTC_30d1a.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d92m8t\\cmTC_30d1a.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d92m8t\\src.cxx(2,15): error C3646: __attribute__: неизвестный спецификатор переопределения [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d92m8t\\cmTC_30d1a.vcxproj]
+          C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d92m8t\\src.cxx(2,29): error C2059: синтаксическая ошибка: ( [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d92m8t\\cmTC_30d1a.vcxproj]
+          C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d92m8t\\src.cxx(2,31): error C2059: синтаксическая ошибка: const [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d92m8t\\cmTC_30d1a.vcxproj]
+          C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d92m8t\\src.cxx(2,37): error C2059: синтаксическая ошибка: ) [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d92m8t\\cmTC_30d1a.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 4
+        
+        Прошло времени 00:00:00.21
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "build/_deps/libpqxx-src/cmake/config.cmake:3 (check_cxx_source_compiles)"
+      - "build/_deps/libpqxx-src/cmake/config.cmake:17 (detect_code_compiled)"
+      - "build/_deps/libpqxx-src/cmake/config.cmake:64 (detect_attribute)"
+      - "build/_deps/libpqxx-src/CMakeLists.txt:21 (include)"
+    directories:
+      source: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-203gl8"
+      binary: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-203gl8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-src/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_GCC_PURE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-203gl8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b1a62.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 18.02.2024 13:27:06.
+        
+        Проект "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-203gl8\\cmTC_b1a62.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_b1a62.dir\\Debug\\".
+          Создание каталога "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-203gl8\\Debug\\".
+          Создание каталога "cmTC_b1a62.dir\\Debug\\cmTC_b1a62.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_b1a62.dir\\Debug\\cmTC_b1a62.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_b1a62.dir\\Debug\\cmTC_b1a62.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D PQXX_HAVE_GCC_PURE /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_b1a62.dir\\Debug\\\\" /Fd"cmTC_b1a62.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-203gl8\\src.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32825 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          src.cxx
+        C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-203gl8\\src.cxx(2,15): error C3646: __attribute__: неизвестный спецификатор переопределения [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-203gl8\\cmTC_b1a62.vcxproj]
+        C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-203gl8\\src.cxx(2,29): error C2059: синтаксическая ошибка: ( [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-203gl8\\cmTC_b1a62.vcxproj]
+        C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-203gl8\\src.cxx(2,36): error C2059: синтаксическая ошибка: ) [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-203gl8\\cmTC_b1a62.vcxproj]
+        C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-203gl8\\src.cxx(2,37): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-203gl8\\cmTC_b1a62.vcxproj]
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D PQXX_HAVE_GCC_PURE /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_b1a62.dir\\Debug\\\\" /Fd"cmTC_b1a62.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-203gl8\\src.cxx"
+        Сборка проекта "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-203gl8\\cmTC_b1a62.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-203gl8\\cmTC_b1a62.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-203gl8\\src.cxx(2,15): error C3646: __attribute__: неизвестный спецификатор переопределения [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-203gl8\\cmTC_b1a62.vcxproj]
+          C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-203gl8\\src.cxx(2,29): error C2059: синтаксическая ошибка: ( [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-203gl8\\cmTC_b1a62.vcxproj]
+          C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-203gl8\\src.cxx(2,36): error C2059: синтаксическая ошибка: ) [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-203gl8\\cmTC_b1a62.vcxproj]
+          C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-203gl8\\src.cxx(2,37): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-203gl8\\cmTC_b1a62.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 4
+        
+        Прошло времени 00:00:00.23
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "build/_deps/libpqxx-src/cmake/config.cmake:3 (check_cxx_source_compiles)"
+      - "build/_deps/libpqxx-src/cmake/config.cmake:17 (detect_code_compiled)"
+      - "build/_deps/libpqxx-src/cmake/config.cmake:65 (detect_attribute)"
+      - "build/_deps/libpqxx-src/CMakeLists.txt:21 (include)"
+    directories:
+      source: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-dgqrjs"
+      binary: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-dgqrjs"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-src/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_GCC_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/79085/source/repos/Messanger_project/Client_backend/build/CMakeFiles/CMakeScratch/TryCompile-dgqrjs'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_522d4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 18.02.2024 13:27:06.
+        
+        Проект "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\cmTC_522d4.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_522d4.dir\\Debug\\".
+          Создание каталога "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\Debug\\".
+          Создание каталога "cmTC_522d4.dir\\Debug\\cmTC_522d4.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_522d4.dir\\Debug\\cmTC_522d4.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_522d4.dir\\Debug\\cmTC_522d4.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D PQXX_HAVE_GCC_VISIBILITY /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_522d4.dir\\Debug\\\\" /Fd"cmTC_522d4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\src.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32825 для x64
+          src.cxx
+        C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\src.cxx(2,15): error C3646: __attribute__: неизвестный спецификатор переопределения [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\cmTC_522d4.vcxproj]
+        C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\src.cxx(2,29): error C2059: синтаксическая ошибка: ( [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\cmTC_522d4.vcxproj]
+        C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\src.cxx(2,41): error C2143: синтаксическая ошибка: отсутствие ")" перед "(" [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\cmTC_522d4.vcxproj]
+        C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\src.cxx(2,51): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\cmTC_522d4.vcxproj]
+        C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\src.cxx(2,41): error C2440: инициализация: невозможно преобразовать "const char [8]" в "int" [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\cmTC_522d4.vcxproj]
+        C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\src.cxx(2,41): message : Не существует контекста, в котором такое преобразование возможно [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\cmTC_522d4.vcxproj]
+        C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\src.cxx(2,52): error C2059: синтаксическая ошибка: ) [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\cmTC_522d4.vcxproj]
+        C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\src.cxx(2,53): error C2059: синтаксическая ошибка: ) [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\cmTC_522d4.vcxproj]
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D PQXX_HAVE_GCC_VISIBILITY /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_522d4.dir\\Debug\\\\" /Fd"cmTC_522d4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\src.cxx"
+        Сборка проекта "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\cmTC_522d4.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\cmTC_522d4.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\src.cxx(2,15): error C3646: __attribute__: неизвестный спецификатор переопределения [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\cmTC_522d4.vcxproj]
+          C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\src.cxx(2,29): error C2059: синтаксическая ошибка: ( [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\cmTC_522d4.vcxproj]
+          C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\src.cxx(2,41): error C2143: синтаксическая ошибка: отсутствие ")" перед "(" [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\cmTC_522d4.vcxproj]
+          C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\src.cxx(2,51): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\cmTC_522d4.vcxproj]
+          C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\src.cxx(2,41): error C2440: инициализация: невозможно преобразовать "const char [8]" в "int" [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\cmTC_522d4.vcxproj]
+          C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\src.cxx(2,52): error C2059: синтаксическая ошибка: ) [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\cmTC_522d4.vcxproj]
+          C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\src.cxx(2,53): error C2059: синтаксическая ошибка: ) [C:\\Users\\79085\\source\\repos\\Messanger_project\\Client_backend\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dgqrjs\\cmTC_522d4.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 7
+        
+        Прошло времени 00:00:00.23
+        
+      exitCode: 1
+...

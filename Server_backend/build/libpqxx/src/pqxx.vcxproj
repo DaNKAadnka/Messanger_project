@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8D2ADC23-AA64-3859-B953-790E44A7AF49}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>pqxx</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\79085\source\repos\Messanger_project\Server_backend\build\libpqxx\src\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">pqxx.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">pqxx</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\79085\source\repos\Messanger_project\Server_backend\build\libpqxx\src\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">pqxx.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">pqxx</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\79085\source\repos\Messanger_project\Server_backend\build\libpqxx\src\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">pqxx.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">pqxx</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\79085\source\repos\Messanger_project\Server_backend\build\libpqxx\src\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">pqxx.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">pqxx</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\79085\source\repos\Messanger_project\Server_backend\build\libpqxx\include;C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\include;C:\Program Files\PostgreSQL\16\include;C:\Program Files\PostgreSQL\16\include\server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;PQXX_SHARED;CMAKE_INTDIR="Debug";pqxx_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;PQXX_SHARED;CMAKE_INTDIR=\"Debug\";pqxx_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\79085\source\repos\Messanger_project\Server_backend\build\libpqxx\include;C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\include;C:\Program Files\PostgreSQL\16\include;C:\Program Files\PostgreSQL\16\include\server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\79085\source\repos\Messanger_project\Server_backend\build\libpqxx\include;C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\include;C:\Program Files\PostgreSQL\16\include;C:\Program Files\PostgreSQL\16\include\server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\PostgreSQL\16\lib\libpq.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/79085/source/repos/Messanger_project/Server_backend/build/libpqxx/src/Debug/pqxx.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/79085/source/repos/Messanger_project/Server_backend/build/libpqxx/src/Debug/pqxx.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\79085\source\repos\Messanger_project\Server_backend\build\libpqxx\include;C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\include;C:\Program Files\PostgreSQL\16\include;C:\Program Files\PostgreSQL\16\include\server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PQXX_SHARED;CMAKE_INTDIR="Release";pqxx_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PQXX_SHARED;CMAKE_INTDIR=\"Release\";pqxx_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\79085\source\repos\Messanger_project\Server_backend\build\libpqxx\include;C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\include;C:\Program Files\PostgreSQL\16\include;C:\Program Files\PostgreSQL\16\include\server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\79085\source\repos\Messanger_project\Server_backend\build\libpqxx\include;C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\include;C:\Program Files\PostgreSQL\16\include;C:\Program Files\PostgreSQL\16\include\server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\PostgreSQL\16\lib\libpq.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/79085/source/repos/Messanger_project/Server_backend/build/libpqxx/src/Release/pqxx.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/79085/source/repos/Messanger_project/Server_backend/build/libpqxx/src/Release/pqxx.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\79085\source\repos\Messanger_project\Server_backend\build\libpqxx\include;C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\include;C:\Program Files\PostgreSQL\16\include;C:\Program Files\PostgreSQL\16\include\server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PQXX_SHARED;CMAKE_INTDIR="MinSizeRel";pqxx_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PQXX_SHARED;CMAKE_INTDIR=\"MinSizeRel\";pqxx_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\79085\source\repos\Messanger_project\Server_backend\build\libpqxx\include;C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\include;C:\Program Files\PostgreSQL\16\include;C:\Program Files\PostgreSQL\16\include\server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\79085\source\repos\Messanger_project\Server_backend\build\libpqxx\include;C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\include;C:\Program Files\PostgreSQL\16\include;C:\Program Files\PostgreSQL\16\include\server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\PostgreSQL\16\lib\libpq.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/79085/source/repos/Messanger_project/Server_backend/build/libpqxx/src/MinSizeRel/pqxx.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/79085/source/repos/Messanger_project/Server_backend/build/libpqxx/src/MinSizeRel/pqxx.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\79085\source\repos\Messanger_project\Server_backend\build\libpqxx\include;C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\include;C:\Program Files\PostgreSQL\16\include;C:\Program Files\PostgreSQL\16\include\server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PQXX_SHARED;CMAKE_INTDIR="RelWithDebInfo";pqxx_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PQXX_SHARED;CMAKE_INTDIR=\"RelWithDebInfo\";pqxx_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\79085\source\repos\Messanger_project\Server_backend\build\libpqxx\include;C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\include;C:\Program Files\PostgreSQL\16\include;C:\Program Files\PostgreSQL\16\include\server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\79085\source\repos\Messanger_project\Server_backend\build\libpqxx\include;C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\include;C:\Program Files\PostgreSQL\16\include;C:\Program Files\PostgreSQL\16\include\server;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\PostgreSQL\16\lib\libpq.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/79085/source/repos/Messanger_project/Server_backend/build/libpqxx/src/RelWithDebInfo/pqxx.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/79085/source/repos/Messanger_project/Server_backend/build/libpqxx/src/RelWithDebInfo/pqxx.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/79085/source/repos/Messanger_project/Server_backend/libpqxx/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/79085/source/repos/Messanger_project/Server_backend -BC:/Users/79085/source/repos/Messanger_project/Server_backend/build --check-stamp-file C:/Users/79085/source/repos/Messanger_project/Server_backend/build/libpqxx/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\libpqxx.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\79085\source\repos\Messanger_project\Server_backend\build\libpqxx\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/79085/source/repos/Messanger_project/Server_backend/libpqxx/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/79085/source/repos/Messanger_project/Server_backend -BC:/Users/79085/source/repos/Messanger_project/Server_backend/build --check-stamp-file C:/Users/79085/source/repos/Messanger_project/Server_backend/build/libpqxx/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\libpqxx.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\79085\source\repos\Messanger_project\Server_backend\build\libpqxx\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/79085/source/repos/Messanger_project/Server_backend/libpqxx/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/79085/source/repos/Messanger_project/Server_backend -BC:/Users/79085/source/repos/Messanger_project/Server_backend/build --check-stamp-file C:/Users/79085/source/repos/Messanger_project/Server_backend/build/libpqxx/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\libpqxx.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\79085\source\repos\Messanger_project\Server_backend\build\libpqxx\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/79085/source/repos/Messanger_project/Server_backend/libpqxx/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/79085/source/repos/Messanger_project/Server_backend -BC:/Users/79085/source/repos/Messanger_project/Server_backend/build --check-stamp-file C:/Users/79085/source/repos/Messanger_project/Server_backend/build/libpqxx/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\libpqxx.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\79085\source\repos\Messanger_project\Server_backend\build\libpqxx\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\array.cxx" />
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\binarystring.cxx" />
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\blob.cxx" />
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\connection.cxx" />
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\cursor.cxx" />
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\encodings.cxx" />
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\errorhandler.cxx" />
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\except.cxx" />
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\field.cxx" />
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\largeobject.cxx" />
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\notification.cxx" />
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\params.cxx" />
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\pipeline.cxx" />
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\result.cxx" />
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\robusttransaction.cxx" />
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\row.cxx" />
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\sql_cursor.cxx" />
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\strconv.cxx" />
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\stream_from.cxx" />
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\stream_to.cxx" />
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\subtransaction.cxx" />
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\time.cxx" />
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\transaction.cxx" />
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\transaction_base.cxx" />
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\util.cxx" />
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\version.cxx" />
+    <ClCompile Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\libpqxx\src\wait.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\79085\source\repos\Messanger_project\Server_backend\build\ZERO_CHECK.vcxproj">
+      <Project>{135C4C49-B1F6-3A43-8B56-B1422374AA91}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

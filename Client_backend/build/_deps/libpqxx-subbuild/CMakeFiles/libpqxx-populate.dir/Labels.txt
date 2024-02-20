@@ -1,0 +1,14 @@
+# Target labels
+ libpqxx-populate
+# Source files and their labels
+C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-subbuild/CMakeFiles/libpqxx-populate
+C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-subbuild/CMakeFiles/d5f3243c58dd12e757e01175b6521958/libpqxx-populate.rule
+C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-subbuild/CMakeFiles/3a1b3854613a04b3300b1e8b2c97d54d/libpqxx-populate-complete.rule
+C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-subbuild/CMakeFiles/d86c615d8849632daa7954f25b8d4f84/libpqxx-populate-build.rule
+C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-subbuild/CMakeFiles/d86c615d8849632daa7954f25b8d4f84/libpqxx-populate-configure.rule
+C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-subbuild/CMakeFiles/d86c615d8849632daa7954f25b8d4f84/libpqxx-populate-download.rule
+C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-subbuild/CMakeFiles/d86c615d8849632daa7954f25b8d4f84/libpqxx-populate-install.rule
+C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-subbuild/CMakeFiles/d86c615d8849632daa7954f25b8d4f84/libpqxx-populate-mkdir.rule
+C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-subbuild/CMakeFiles/d86c615d8849632daa7954f25b8d4f84/libpqxx-populate-patch.rule
+C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-subbuild/CMakeFiles/d86c615d8849632daa7954f25b8d4f84/libpqxx-populate-test.rule
+C:/Users/79085/source/repos/Messanger_project/Client_backend/build/_deps/libpqxx-subbuild/CMakeFiles/d86c615d8849632daa7954f25b8d4f84/libpqxx-populate-update.rule

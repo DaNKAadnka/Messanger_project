@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-subbuild\CMakeFiles\d86c615d8849632daa7954f25b8d4f84\libpqxx-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-subbuild\CMakeFiles\d86c615d8849632daa7954f25b8d4f84\libpqxx-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-subbuild\CMakeFiles\d86c615d8849632daa7954f25b8d4f84\libpqxx-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-subbuild\CMakeFiles\d86c615d8849632daa7954f25b8d4f84\libpqxx-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-subbuild\CMakeFiles\d86c615d8849632daa7954f25b8d4f84\libpqxx-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-subbuild\CMakeFiles\d86c615d8849632daa7954f25b8d4f84\libpqxx-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-subbuild\CMakeFiles\d86c615d8849632daa7954f25b8d4f84\libpqxx-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-subbuild\CMakeFiles\d86c615d8849632daa7954f25b8d4f84\libpqxx-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-subbuild\CMakeFiles\3a1b3854613a04b3300b1e8b2c97d54d\libpqxx-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-subbuild\CMakeFiles\d5f3243c58dd12e757e01175b6521958\libpqxx-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\79085\source\repos\Messanger_project\Client_backend\build\_deps\libpqxx-subbuild\CMakeFiles\libpqxx-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5586AF7E-898A-3470-B346-96D5CA6DF949}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
