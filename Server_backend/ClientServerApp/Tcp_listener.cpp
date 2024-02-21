@@ -42,16 +42,13 @@ SOCKET Tcp_listener::Create_Socket() {
 	erStat = inet_pton(AF_INET, m_ipAdress.c_str(), &ip_address);
 
 	hint.sin_family = AF_INET;
-	hint.sin_port = htons(1234);
-	hint.sin_addr.S_un.S_addr = INADDR_ANY; // Could also use inet_pton .... 
+	hint.sin_port   = htons(1234);
+	hint.sin_addr   = ip_address; 
 
 	bind(listening, (sockaddr*)&hint, sizeof(hint));
 
-	// Tell Winsock the socket is for listening 
 	listen(listening, SOMAXCONN);
 	std::cout << "Listening\n";
-
-	
 
 	return listening;
 }
@@ -70,16 +67,6 @@ void Tcp_listener::Send (int client_socket, std::string msg) {
 
 void Tcp_listener::Run() {
 
-
-	//db_handler db("messanger_db");
-
-	//db.open_db();
-
-
-	//db.create_table_if_not_exists();
-	//// Testing info
-	//db.print_all_users();
-
 	p_controller p_c;
 
 
@@ -90,11 +77,8 @@ void Tcp_listener::Run() {
 
 	// Create the master file descriptor set and zero it
 	fd_set master{};
+	
 	FD_ZERO(&master);
-
-	// Add our first socket that we're interested in interacting with; the listening socket!
-	// It's important that this socket is added for our server or else we won't 'hear' incoming
-	// connections 
 	FD_SET(server_socket, &master);
 
 	while (true) {
@@ -102,16 +86,14 @@ void Tcp_listener::Run() {
 		
 		fd_set copy = master;
 
-		// See who's talking to us
 		int socketCount = select(0, &copy, nullptr, nullptr, nullptr);
 
-		// Loop through all the current connections / potential connect
 		for (int i = 0; i < socketCount; i++)
 		{
-			// Makes things easy for us doing this assignment
+
 			SOCKET sock = copy.fd_array[i];
 
-			// Is it an inbound communication?
+			// Is it an inbound communication
 			if (sock == server_socket)
 			{
 				// Accept a new connection

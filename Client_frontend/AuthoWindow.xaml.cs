@@ -26,7 +26,7 @@ namespace WpfApp1
 
         public void OnAutho(object sender, EventArgs e)
         {
-            if (loginField.Text != null && passwordField != null)
+            if (loginField.Text != null && passwordField != null && !NetworkModule.instance.isLogin)
             {
                 // Отправляется сообщение по протоколу
                 // Command:Register
@@ -43,8 +43,6 @@ namespace WpfApp1
 
 
                 NetworkModule.instance.SendMessage(send_message);
-
-                MessageBox.Show(send_message);
             }
         }
     }

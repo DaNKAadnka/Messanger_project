@@ -27,16 +27,13 @@ private:
 	std::string m_ipAdress;
 	int         m_port;
 
-
-	int erStat;
-
 	// Initialze winsock
 	WSADATA wsData;
 	WORD ver;
+	int erStat;
 
 	
 	// Bind the ip address and port to a socket
 	sockaddr_in hint;
-
 	SOCKET Create_Socket();
 };

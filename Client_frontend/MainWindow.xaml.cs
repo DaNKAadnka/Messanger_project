@@ -42,30 +42,6 @@ namespace WpfApp1
             base.OnContentRendered(e);
             NetworkModule.instance = new NetworkModule();
         }
-        
-
-        //public string Recieve()
-        //{
-        //    while (true)
-        //    {
-        //        // буфер для получения данных
-        //        var responseData = new byte[512];
-        //        // StringBuilder для склеивания полученных данных в одну строку
-        //        var response = new StringBuilder();
-        //        int bytes;  // количество полученных байтов
-        //        do
-        //        {
-        //            // получаем данные
-        //            bytes = stream.Read(responseData, 0, responseData.Length);
-        //            // преобразуем в строку и добавляем ее в StringBuilder
-        //            response.Append(Encoding.UTF8.GetString(responseData, 0, bytes));
-        //        }
-        //        while (bytes > 0); // пока данные есть в потоке 
-
-        //        return 
-        //        Thread.Sleep(3000);
-        //    }
-        //}
 
         //public async Task<string> RecieveAsync ()
         //{
@@ -101,5 +77,27 @@ namespace WpfApp1
             authoWindow.Show();
         }
         
+        public void OnLogOut(object sender, RoutedEventArgs eventArgs)
+        {
+            NetworkModule.instance.LogOut();
+            Dispatcher.BeginInvoke(new Action(() =>
+            {
+                messages.Clear();
+            }));
+        }
+
+        public void OnMyAccount(object sender, RoutedEventArgs eventArgs)
+        {
+            if (NetworkModule.instance.isLogin)
+            {
+                string account_message = "Hello, " + NetworkModule.instance.login + "!";
+
+                MessageBox.Show(account_message);
+            }
+            else
+            {
+                MessageBox.Show("Please, log in to view messages:)");
+            }
+        }
     }
 }

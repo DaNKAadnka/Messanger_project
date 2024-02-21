@@ -25,7 +25,9 @@
             </MenuItem>
             <MenuItem>
                 <MenuItem.Header>
-                    <TextBlock FontSize="15">My account</TextBlock>
+                    <Button Click="OnMyAccount">
+                        <TextBlock FontSize="15">My account</TextBlock>
+                    </Button>
                 </MenuItem.Header>
             </MenuItem>
             <MenuItem>
@@ -37,7 +39,10 @@
             </MenuItem>
             <MenuItem>
                 <MenuItem.Header>
-                    <TextBlock FontSize="15">Log Out</TextBlock>
+                    <Button Click="OnLogOut">
+                        <TextBlock FontSize="15">Log Out</TextBlock>
+                    </Button>
+                    
                 </MenuItem.Header>
             </MenuItem>
             <MenuItem>

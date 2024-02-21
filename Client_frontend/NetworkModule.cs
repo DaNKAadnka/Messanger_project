@@ -133,5 +133,11 @@ namespace WpfApp1
             }
             //MessageBox.Show(String.Join(";", strings));
         }
+
+        public void LogOut ()
+        {
+            isLogin = false;
+            login = null;
+        }
     }
 }
