@@ -1,6 +1,7 @@
 #include "Tcp_listener.h"
-#include "db_handler.h"
+#include "p_controller.h"
 #include <sstream>
+#include <vector>
 
 Tcp_listener::Tcp_listener (std::string ipAdress, int port) : m_ipAdress(ipAdress), m_port(port) {
 	
@@ -61,18 +62,25 @@ void Tcp_listener::Send (int client_socket, std::string msg) {
 	send(client_socket, msg.c_str(), msg.size() + 1, 0);
 }
 
+
+
+
+
+// Main functional
+
 void Tcp_listener::Run() {
 
 
-	db_handler db("messanger_db");
+	//db_handler db("messanger_db");
 
-	db.open_db();
+	//db.open_db();
 
 
-	db.create_table_if_not_exists();
-	// Testing info
-	db.print_all_users();
+	//db.create_table_if_not_exists();
+	//// Testing info
+	//db.print_all_users();
 
+	p_controller p_c;
 
 
 	SOCKET server_socket = Create_Socket();
@@ -116,7 +124,7 @@ void Tcp_listener::Run() {
 
 					// Send a welcome message to the connected client
 					std::string welcomeMsg = "Welcome to the Awesome Chat Server!\r\n";
-					Send(client_socket, welcomeMsg);
+					Send(client_socket, p_c.sendProtocolMessage(welcomeMsg));
 				}
 
 			}
@@ -138,26 +146,41 @@ void Tcp_listener::Run() {
 					std::string message = std::string(buf, 0, bytesIn);
 					std::cout << message << "\n";
 
+					std::string response = p_c.processData(message);
 
-					// Parse message by our protocol
+					std::cout << "response:\n" << response << "\n------\n";
 
-					/* Create SQL statement */
+					std::istringstream ss(response);
+
+					std::string line;
+					std::vector <std::string> lines;
+					while (getline(ss, line, '\n')) {
+						lines.push_back(line);
+					}
+					std::string command = lines[0].erase(0, 8);
+					std::string status = lines[1].erase(0, 7);
 
 
-					// If command is send_message
-					for (int i = 0; i < master.fd_count; i++)
-					{
-						SOCKET outSock = master.fd_array[i];
-						if (outSock != server_socket && outSock != sock)
+					// Bad practice, we are losing MVC 
+					// However, it`s too tricky for me
+					// Maybe I should use controller as main runner
+					if (command == "Send Message" && status == "Success") {
+						
+						for (int j = 0; j < master.fd_count; j++)
 						{
-							std::ostringstream ss;
-							std::cout << "message: " << buf << "\n";
-							ss << "SOCKET #" << sock << ": " << buf << "\r\n";
-							std::string strOut = ss.str();
-
-							Send(outSock, strOut);
+							SOCKET outSock = master.fd_array[j];
+							if (outSock != server_socket)
+							{
+								std::cout << "send to other - response: " << response << "\n";
+								Send(outSock, response);
+							}
 						}
 					}
+					else {
+						Send(sock, response);
+					}
+
+					
 				}
 			}
 		}

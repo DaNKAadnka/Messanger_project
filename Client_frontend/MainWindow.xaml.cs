@@ -75,9 +75,15 @@ namespace WpfApp1
         public void OnSendMessage(object sender, RoutedEventArgs eventArgs)
         {
             string message = clientText.Text;
-            if (message != null)
+            if (message != null && NetworkModule.instance.isLogin)
             {
-                NetworkModule.instance.SendMessage(message);
+                string send_message = "Command:Send Message\n" +
+                                      "Status:Check\n" +
+                                      "Data:\n" +
+                                      "Sender:" + NetworkModule.instance.login + "\n" +
+                                      "Reciever:" + "@All\n" +
+                                      "Message:" + message;
+                NetworkModule.instance.SendMessage(send_message);
             }
 
             clientText.Text = "";
@@ -87,6 +93,12 @@ namespace WpfApp1
         {
             RegisterWindows r = new RegisterWindows();
             r.Show();
+        }
+
+        public void OnAutho (object sender, RoutedEventArgs eventArgs)
+        {
+            AuthoWindow authoWindow = new AuthoWindow();
+            authoWindow.Show();
         }
         
     }

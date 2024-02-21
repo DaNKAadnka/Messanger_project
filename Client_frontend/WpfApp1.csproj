@@ -58,10 +58,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AuthoWindow.xaml.cs">
+      <DependentUpon>AuthoWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="NetworkModule.cs" />
     <Compile Include="RegisterWindows.xaml.cs">
       <DependentUpon>RegisterWindows.xaml</DependentUpon>
     </Compile>
+    <Page Include="AuthoWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

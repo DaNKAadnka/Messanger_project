@@ -30,7 +30,9 @@
             </MenuItem>
             <MenuItem>
                 <MenuItem.Header>
-                    <TextBlock FontSize="15">Log In</TextBlock>
+                    <Button Click="OnAutho">
+                        <TextBlock FontSize="15">Log In</TextBlock>
+                    </Button>
                 </MenuItem.Header>
             </MenuItem>
             <MenuItem>

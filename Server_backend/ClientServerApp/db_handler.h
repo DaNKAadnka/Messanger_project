@@ -16,14 +16,20 @@ public:
 	void open_db(std::string);
 
 	void print_all_users();
+	void print_all_messages();
 
 	void create_table_if_not_exists();
 
-	void create_user_query(std::string login, std::string password);
+	bool create_user_query(std::string login, std::string password);
 
-	void autho_user_query(std::string login, std::string password);
+	bool autho_user_query(std::string login, std::string password);
 
 	void send_message_query(std::string sender, std::string reciever, std::string message);
+
+	std::string get_messages_query();
+	
+	
+
 
 private:
 
@@ -42,7 +48,5 @@ private:
 	// sqlite handle object
 	sqlite3* db = 0;
 	char* err = 0;
-
-
 	
 };
